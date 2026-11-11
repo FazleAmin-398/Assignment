@@ -21,6 +21,7 @@ def report(name, marks):
     avg = average(marks)
     gr = grade(avg)
     print("Name:", name,",","Average:", round(avg, 2), ",","Grade:", gr)
+    #calling report function for 3 students
 report("Ali", [80, 72, 91])
 report("Sara", [95, 88, 90])
 report("Ahmed", [35, 42, 50])
